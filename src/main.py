@@ -1,5 +1,5 @@
-from Triangle import Triangle
-from Rectangle import Rectangle
+from triangle import Triangle
+from rectangle import Rectangle
 
 rectangle = Rectangle(10, 2)
 print(rectangle.area)
