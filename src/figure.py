@@ -5,7 +5,3 @@ class Figure:
         if not isinstance(figure, Figure):
             raise ValueError
         return self.area + figure.area
-
-
-
-

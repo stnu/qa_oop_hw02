@@ -1,5 +1,5 @@
 def test_ids_triangle():
-    from src.Triangle import Triangle
+    from src.triangle import Triangle
     try:
         t = Triangle(1, 1, 1)
     except Exception as e:

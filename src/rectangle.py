@@ -1,4 +1,4 @@
-from hw_02_oop.src.Figure import Figure
+from qa_oop_hw02.src.Figure import Figure
 
 
 class Rectangle(Figure):

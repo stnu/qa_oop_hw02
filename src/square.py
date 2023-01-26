@@ -1,4 +1,4 @@
-from hw_02_oop.src.Figure import Figure
+from qa_oop_hw02.src.Figure import Figure
 
 
 class Square(Figure):
@@ -7,4 +7,3 @@ class Square(Figure):
         self.a = a
         self.area = self.a ** 2
         self.perimeter = self.a * 4
-
