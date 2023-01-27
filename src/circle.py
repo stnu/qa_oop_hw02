@@ -1,4 +1,4 @@
-from figure import Figure
+from src.figure import Figure
 import math
 
 
@@ -8,4 +8,3 @@ class Circle(Figure):
         self.r = r
         self.area = math.pi * (self.r ** 2)
         self.perimeter = 2 * math.pi * self.r
-
